@@ -13,7 +13,7 @@ cask "hangar" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   app "Hangar.app"
   binary "#{appdir}/Hangar.app/Contents/Helpers/HangarCLI.app/Contents/MacOS/hangar"
