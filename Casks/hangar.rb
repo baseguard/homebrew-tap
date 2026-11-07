@@ -1,6 +1,6 @@
 cask "hangar" do
-  version "0.10.0"
-  sha256 "ea5837c41f0458fb293dcfefe2db3f3958473c21ae6bf004b6de6f67ce3b6a4c"
+  version "1.0.0"
+  sha256 "3e0471c5072f2ae40b2d746276a6198ec500f567f785b9c205a060b89d17ae4e"
 
   url "https://github.com/baseguard/hangar/releases/download/v#{version}/Hangar.dmg"
   name "Hangar"
